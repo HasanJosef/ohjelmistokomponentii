@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 1;
+  padding: 1;
+  background-color: #f9f9f9;
+}
+
+header {
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  text-align: left;
+}
+
+div {
+  margin: 0.5rem;
+}
+
+button {
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9793b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.9rem;
+  margin: 0.5rem 0;
+  color: white;
+  background-color: rgb(72, 255, 0);
+  cursor: pointer;
+  text-align: left;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(72, 255, 0);
+}
+
+li:hover {
+  background-color: #000000;
+}
